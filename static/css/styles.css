@@ -288,25 +288,39 @@ img{
   border-radius: .5rem;
   z-index: var(--z-back);
 }
-.skills__html{
-  width: 95%;
+.skills__cpp{
+  width: 80%;
 }
-.skills__css{
-  width: 85%;
+.skills__py{
+  width: 80%;
 }
-.skills__js{
+.skills__dj{
   width: 65%;
 }
 .skills__ux{
   width: 85%;
 }
-.skills__img{
-  border-radius: .5rem;
+.skills__html{
+  width: 85%;
 }
+.skills__css{
+  width: 65%;
+}
+/*.skills__img{
+  border-radius: .5rem;
+}*/
 
 /* ===== WORK =====*/
-.work__container{
+.education__container{
   row-gap: 2rem;
+
+}
+
+.education__subtitle{
+  margin-bottom: var(--mb-0.5);
+}
+.education__text{
+  margin-bottom: var(--mb-0.5);
 }
 .work__img{
   box-shadow: 0 4px 25px rgba(14,36,49,.15);

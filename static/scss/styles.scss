@@ -302,17 +302,20 @@ img{
         border-radius: .5rem;
         z-index: var(--z-back);
     }
-    &__html{
-        width: 95%;
+    &__cpp{
+        width: 80%;
     }
-    &__css{
-        width: 85%;
-    }
-    &__js{
-        width: 65%;
+    &__py{
+        width: 80%;
     }
     &__ux{
         width: 85%;
+    }
+    &__html{
+        width: 85%;
+    }
+    &__css{
+        width: 65%;
     }
     &__img{
         border-radius: .5rem;
@@ -462,8 +465,8 @@ img{
     }
     .work{
         &__container{
-            grid-template-columns: repeat(3,1fr);
-            grid-template-rows: repeat(2, 1fr);
+            grid-template-columns: repeat(2,1fr); /*was 3,1fr*/
+            /*grid-template-rows: repeat(2, 1fr);*/
             column-gap: 2rem;
         }
     }
