@@ -67,8 +67,9 @@ ul{
   list-style: none;
 }
 ul.b{
-  margin: 1rem;
-  padding: 0;
+  margin: 0;
+  padding-left: 1rem;
+  list-style-position: inside;
   list-style: circle;
 }
 a{
@@ -322,7 +323,6 @@ img{
 /* ===== Projects =====*/
 .projects__container{
   row-gap: 2rem;
-
 }
 .projects__subtitle{
   margin-bottom: var(--mb-0.5);
@@ -371,8 +371,16 @@ img{
   transform: scale(1.1);
 }*/
 
-/* ===== CONTACT =====
-.contact__input{
+===== CONTACT =====
+.contact__container{
+  text-align: center; 
+}
+.contact__text{
+  font-size: large;
+  text-align: center;
+  font-weight: bold;
+}
+/*.contact__input{
   width: 100%;
   font-size: var(--normal-font-size);
   font-weight: var(--font-semi);
@@ -480,10 +488,14 @@ img{
   .about__img img{
     width: 300px;
   }
+  ul.b{
+    margin: 0;
+    padding-left: 1rem;
+    list-style-position: inside;
+    list-style: circle;
+  }
   .projects__container, .achievements__container{
-    grid-template-columns: repeat(1,1fr);
-    align-items: center;
-    text-align: initial;
+    text-align: left;
   }
   .education__container{
     grid-template-columns: repeat(1, 1fr);
@@ -494,7 +506,7 @@ img{
     width: 360px;
   }
   .contact__container{
-    justify-items: center;  
+    text-align: center; 
   }
   .contact__text{
     font-size: x-large;
