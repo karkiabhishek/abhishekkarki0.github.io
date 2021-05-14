@@ -371,7 +371,7 @@ img{
   transform: scale(1.1);
 }*/
 
-===== CONTACT =====
+/*===== CONTACT =====*/
 .contact__container{
   text-align: center; 
 }
@@ -491,11 +491,13 @@ img{
   ul.b{
     margin: 0;
     padding-left: 1rem;
-    list-style-position: inside;
     list-style: circle;
+    justify-content: center;
+    align-items: center;
   }
   .projects__container, .achievements__container{
-    text-align: left;
+    justify-content: center;
+    align-items: center;
   }
   .education__container{
     grid-template-columns: repeat(1, 1fr);
