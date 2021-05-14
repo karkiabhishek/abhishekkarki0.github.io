@@ -371,7 +371,7 @@ img{
   transform: scale(1.1);
 }*/
 
-/* ===== CONTACT =====*/
+/* ===== CONTACT =====
 .contact__input{
   width: 100%;
   font-size: var(--normal-font-size);
@@ -389,7 +389,7 @@ img{
   font-size: var(--normal-font-size);
   cursor: pointer;
   margin-left: auto;
-}
+}*/
 
 /* ===== FOOTER =====*/
 .footer{
@@ -401,8 +401,12 @@ img{
 }
 .footer__title{
   font-size: 2rem;
-  margin-bottom: var(--mb-4);
+  margin-bottom: var(--mb-2);
 }
+.footer__subtitle{
+  font-size: 1rem;
+  margin-bottom: var(--mb-4);
+}  
 .footer__social{
   margin-bottom: var(--mb-4);
 }
@@ -490,7 +494,12 @@ img{
     width: 360px;
   }
   .contact__container{
-    justify-items: center;
+    justify-items: center;  
+  }
+  .contact__text{
+    font-size: x-large;
+    text-align: center;
+    font-weight: bold;
   }
 }
 

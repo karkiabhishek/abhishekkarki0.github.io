@@ -389,7 +389,7 @@ img{
     }
 }
 
-/* ===== CONTACT =====*/
+/* ===== CONTACT =====
 .contact{
     &__input{
         width: 100%;
@@ -409,7 +409,7 @@ img{
         cursor: pointer;
         margin-left: auto;
     }
-}
+}*/
 
 /* ===== FOOTER =====*/
 .footer{
@@ -421,6 +421,10 @@ img{
 
     &__title{
         font-size: 2rem;
+        margin-bottom: var(--mb-2);
+    }
+    &__subtitle{
+        font-size: 1rem;
         margin-bottom: var(--mb-4);
     }
     &__social{
@@ -523,6 +527,11 @@ img{
         }
         &__container{
             justify-items: center;
+        }
+        &__text{
+            font-size: x-large;
+            text-align: center;
+            font-weight: bold;
         }
     }
 

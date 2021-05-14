@@ -25,6 +25,10 @@ function linkAction(){
 }
 navLink.forEach(n => n.addEventListener('click', linkAction));
 
+/*Form Submit Alert*/
+function send(){
+    alert("Thank You! Your message has been sent.");
+}
 /*===== SCROLL REVEAL ANIMATION =====*/
 const sr = ScrollReveal({
     origin: 'top',
