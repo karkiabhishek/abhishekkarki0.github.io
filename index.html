@@ -5,9 +5,10 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
         <link rel="stylesheet" href="static/css/styles.css">
-
+        <link rel="icon" href="static/img/tab.png">
         <!-- =====BOX ICONS===== -->
-        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+        
+        <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
 
         <title>Portfolio</title>
     </head>
@@ -24,9 +25,9 @@
                         <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
                         <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
                         <li class="nav__item"><a href="#education" class="nav__link">Education</a></li>
-                        <li class="nav__item"><a href="#projects" class="nav__link">Projects</a></li>
                         <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
-                        <li class="nav__item"><a href="#interests" class="nav__link">Interests</a></li>
+                        <li class="nav__item"><a href="#projects" class="nav__link">Projects</a></li>
+                        <!--<li class="nav__item"><a href="#interests" class="nav__link">Interests</a></li>-->
                         <li class="nav__item"><a href="#achievements" class="nav__link">Achievements</a></li>
                         <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
                     </ul>
@@ -44,7 +45,7 @@
                 <div class="home__data">
                     <h1 class="home__title">Hi,<br>I'am <span class="home__title-color">Abhishek</span><br> Computer Engineer</h1>
 
-                    <a href="#" class="button">Contact</a>
+                    <a href="#contact" class="button">Contact</a>
                 </div>
 
                 <div class="home__social">
@@ -66,12 +67,15 @@
                     <div class="about__img">
                         <img src="static/img/about.jpg" alt="">
                     </div>
-                    
+                       
                     <div>
                         <h2 class="about__subtitle">I'am Abhishek</h2>
-                        <p class="about__text">Strong in design and integration with intuitive problem-solving skills. Proficient in C++, PYTHON, DJANGO, and UX/UI. Passionate about implementing and launching new projects. Ability to translate business requirements into technical solutions.</p>           
+                        <p class="about__text">Self-motivated and highly reliable university student positioned to contribute strongly to customer service operations demanding tact, enthusiasm, and an exemplary work ethic.</p>           
+                        
+                        <a href="static/AbhishekKarkiResume.pdf" class="button" target="_blank">Download CV</a> 
                     </div>                                   
                 </div>
+                
             </section>
 
             <!--===== EDUCATION =====-->
@@ -82,7 +86,7 @@
                         <div>
                             <h2 class="education__subtitle">BACHELOR’S IN COMPUTER ENGINEERING</h2>
                             <p class="education__text">Kantipur Engineering College</p>
-                            <p>2021-Present</p> 
+                            <p>Present</p> 
                             
                         </div>
 
@@ -100,6 +104,8 @@
                     </div>           
                 
             </section>
+
+               
             
             <!--===== SKILLS =====-->
             <section class="skills section" id="skills">
@@ -107,8 +113,8 @@
 
                 <div class="skills__container bd-grid">          
                     <div>
-                        <h2 class="skills__subtitle">Profesional Skills</h2>
-                        <p class="skills__text">Self-motivated and highly reliable university student positioned to contribute strongly to customer service operations demanding tact, enthusiasm, and an exemplary work ethic.</p>
+                        <h2 class="skills__subtitle">Professional Skills</h2>
+                        <p class="skills__text">Strong in design and integration with intuitive problem-solving skills. Proficient in C++, PYTHON, DJANGO, and UX/UI. Passionate about implementing and launching new projects. Ability to translate business requirements into technical solutions.</p>
                         <div class="skills__data">
                             <div class="skills__names">
                                 <i class='bx bxl-c-plus-plus skills__icon'></i>
@@ -182,11 +188,40 @@
                             </div>
                         </div>
                     </div>
-                    
+                    <div>              
+                        <img src="static/img/work3.jpg" alt="" class="skills__img">
+                    </div>
                 </div>
             </section>
 
-            
+            <!--===== PROJECTS =====-->
+            <section class="projects section" id="projects">
+                <h2 class="section-title">Projects</h2>
+
+                <div class="project__container bd-grid">  
+                <ul class="b">
+                    <li>Nepali Unicode Converter with Personalized Text Predictor [Major Project]</li> 
+                    <li>Lossless Image Compressor [Minor Project]</li> 
+                    <li>Console based Library Management System (C Language)</li> 
+                    <li>Food Mario Game using SFML library</li> 
+                    <li>Personal website Django Ecommerce Demo Project (Training provided by TechAxis)</li>
+                </ul>
+                </div>
+             </section> 
+
+            <!--===== ACHIEVEMENTS =====-->
+            <section class="achievements section" id="achievements">
+                <h2 class="section-title">Achievements</h2>
+
+                <div class="achievements__container bd-grid">  
+                <ul class="b">
+                    <li>Research paper in “Nepali Unicode Converter with Personalized Text Predictor” published in 3rd International Conference on Science and Technology, <b>KEC Conference 2021</b></li>
+                    <li>Research paper in “Improved Image Compression Using Lossless Huffman Encoding” published in 2nd International Conference on Science and Technology, <b>KEC Conference 2019</b></li>
+                    <li>Best Student in Engineering Drawing 2017</li>
+                    <li>Student of the Year 2013</li>
+                </ul>
+                </div>
+             </section>
 
             <!--===== CONTACT =====-->
             <section class="contact section" id="contact">
@@ -197,7 +232,7 @@
                         <input type="text" placeholder="Name" class="contact__input">
                         <input type="mail" placeholder="Email" class="contact__input">
                         <textarea name="" id="" cols="0" rows="10" class="contact__input"></textarea>
-                        <input type="button" value="Enviar" class="contact__button button">
+                        <input type="button" value="Send" class="contact__button button">
                     </form>
                 </div>
             </section>

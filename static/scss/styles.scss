@@ -67,6 +67,11 @@ ul{
     padding: 0;
     list-style: none;
 }
+ul.b{
+    margin: 0;
+    padding: 0;
+    list-style: circle;
+}
 a{
     text-decoration: none;
 }
@@ -321,8 +326,50 @@ img{
         border-radius: .5rem;
     }
 }
-/* ===== WORK =====*/
-.work{
+/* ===== Education =====*/
+.education{
+    &__container{
+        row-gap: 2rem;
+    }
+    &__img{
+        box-shadow: 0px 4px 25px rgba(14, 36, 49, 0.15); 
+        border-radius: .5rem;
+        overflow: hidden;
+        
+        & img{
+            transition: 1s;
+            cursor: pointer;
+
+            &:hover{
+                transform: scale(1.1);
+            }
+        }
+    }
+}
+
+/* ===== Projects =====*/
+.projects{
+    &__container{
+        row-gap: 2rem;
+    }
+    &__img{
+        box-shadow: 0px 4px 25px rgba(14, 36, 49, 0.15); 
+        border-radius: .5rem;
+        overflow: hidden;
+        
+        & img{
+            transition: 1s;
+            cursor: pointer;
+
+            &:hover{
+                transform: scale(1.1);
+            }
+        }
+    }
+}
+
+/* ===== Achievments =====*/
+.achievements{
     &__container{
         row-gap: 2rem;
     }
@@ -463,9 +510,9 @@ img{
             text-align: initial;
         }
     }
-    .work{
+    .education{
         &__container{
-            grid-template-columns: repeat(2,1fr); /*was 3,1fr*/
+            grid-template-columns: repeat(1,1fr); /*was 3,1fr*/
             /*grid-template-rows: repeat(2, 1fr);*/
             column-gap: 2rem;
         }
